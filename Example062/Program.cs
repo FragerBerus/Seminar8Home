@@ -21,7 +21,7 @@ while (element <= size * size)
     }
     else
     {
-        if (i < j && i + j >= size -+ 1)
+        if (i < j && i + j >= size - +1)
         {
             ++i;
         }
@@ -37,7 +37,7 @@ while (element <= size * size)
             }
         }
     }
-++element;
+    ++element;
 }
 Console.WriteLine("Квадратная матрица, зfполненная по спирали:");
 for (i = 0; i < size; i++)
